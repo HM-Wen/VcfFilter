@@ -18,9 +18,9 @@ read depth and frequency of base calls. These are the parameters and thresholds 
 	7.  INDEL_HOMOZ_MIN_RATIO (minimum RATIO for polimorphism of type "homozygous Indel") = 0.83,
 	8.  INDEL_HOMOZ_MIN_DEPTH (minimum DEPTH for polimorphism of type "homozygous Indel") = 14,
 	9.  INDEL_HOMOZ_MIN_QUAL (minimum QUAL for polimorphism of type "homozygous Indel") = 43,
-	10. INDEL_HETER_MIN_RATIO (minimum RATIO for polimorphism of type "homozygous Indel") = 0.28,
-	11. INDEL_HETER_MIN_DEPTH (minimum DEPTH for polimorphism of type "homozygous Indel") = 38,
-	12. INDEL_HETER_MIN_QUAL (minimum QUAL for polimorphism of type "homozygous Indel") = 33
+	10. INDEL_HETER_MIN_RATIO (minimum RATIO for polimorphism of type "heterozygous Indel") = 0.28,
+	11. INDEL_HETER_MIN_DEPTH (minimum DEPTH for polimorphism of type "heterozygous Indel") = 38,
+	12. INDEL_HETER_MIN_QUAL (minimum QUAL for polimorphism of type "heterozygous Indel") = 33
 
 with RATIO = ratio "calls_alternative_allele/calls_reference_allele", 
      DEPTH = coverage (num of reads) for the position of the polimorphism
