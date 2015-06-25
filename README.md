@@ -1,10 +1,9 @@
 # VcfFilter
 
 Filtering of polymorphisms according to thresholds of quality score, read depth and frequency of base calls.
-------------------------------------------------------------------------------------------------------------
 
-# Reference: "Polymorphisms and minihaplotypes in the VvNAC26 gene associate with berry size
-#             variation in grapevine" (Tello J et al., BMC Plant Biology 2015)
+Reference: "Polymorphisms and minihaplotypes in the VvNAC26 gene associate with berry size
+            variation in grapevine" (Tello J et al., BMC Plant Biology 2015)
 
 The script tar_FilteringVariants.pl takes and extended VCF file and filter SNP and Indels according to thresholds of quality score, 
 read depth and frequency of base calls. These are the parameters and thresholds for the filtering:
