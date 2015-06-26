@@ -60,19 +60,19 @@ open (VCFPLUS, $VCFPLUS) || die "Can't open $VCFPLUS";
 my $tasselFormatGenerateDir=$ARGV[1];
 
 # output file
-my $st=$tasselFormatGenerateDir.'/stats_filtering_'.$REFDATE.'.txt';
+my $st=$tasselFormatGenerateDir.'/stats_filtering.txt';
 open (STATS,">$st") or die "Cannot open $st\n";
 
 # output file
-my $flt=$tasselFormatGenerateDir.'/filtered_'.$REFDATE.'.txt';
+my $flt=$tasselFormatGenerateDir.'/filtered.txt';
 open (FILTERED,">$flt") or die "Cannot open $flt\n";
 
 # output file
-my $svd=$tasselFormatGenerateDir.'/saved_'.$REFDATE.'.txt';
+my $svd=$tasselFormatGenerateDir.'/saved.txt';
 open (SAVED,">$svd") or die "Cannot open $svd\n";
 
 # output file
-my $fs=$tasselFormatGenerateDir.'/f&s_'.$REFDATE.'.txt';
+my $fs=$tasselFormatGenerateDir.'/f&s.txt';
 open (FILTANDS,">$fs") or die "Cannot open $fs\n";
 
 
